@@ -1,0 +1,27 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- master
+
+pool:
+  name: Default
+
+steps:
+- script: echo Hello, world!
+  displayName: 'Run a one-line script'
+
+- powershell: |
+   # Write your powershell commands here.
+   
+   Write-Host "Hello World"
+   
+   # Use the environment variables input below to pass secret variables to this script.
+   
+   cd c:\chef1
+   knife ssl check
+   knife cookbook upload learn_chef_apache2 
+   
+  displayName: 'PowerShell Script'

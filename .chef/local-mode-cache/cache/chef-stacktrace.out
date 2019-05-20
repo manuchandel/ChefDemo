@@ -1,0 +1,21 @@
+Generated at 2019-05-19 22:02:08 -0700
+SyntaxError: C:/chef/directory.rb:1: syntax error, unexpected $undefined
+directory ‘C:\AppX’ do
+               ^
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.5.0/gems/chef-14.12.9-universal-mingw32/lib/chef/mixin/from_file.rb:34:in `instance_eval'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.5.0/gems/chef-14.12.9-universal-mingw32/lib/chef/mixin/from_file.rb:34:in `from_file'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.5.0/gems/chef-14.12.9-universal-mingw32/lib/chef/run_context.rb:370:in `load_recipe_file'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.5.0/gems/chef-14.12.9-universal-mingw32/lib/chef/policy_builder/expand_node_object.rb:100:in `block in setup_run_context'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.5.0/gems/chef-14.12.9-universal-mingw32/lib/chef/policy_builder/expand_node_object.rb:99:in `each'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.5.0/gems/chef-14.12.9-universal-mingw32/lib/chef/policy_builder/expand_node_object.rb:99:in `setup_run_context'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.5.0/gems/chef-14.12.9-universal-mingw32/lib/chef/client.rb:515:in `setup_run_context'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.5.0/gems/chef-14.12.9-universal-mingw32/lib/chef/client.rb:281:in `run'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.5.0/gems/chef-14.12.9-universal-mingw32/lib/chef/application.rb:303:in `run_with_graceful_exit_option'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.5.0/gems/chef-14.12.9-universal-mingw32/lib/chef/application.rb:279:in `block in run_chef_client'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.5.0/gems/chef-14.12.9-universal-mingw32/lib/chef/local_mode.rb:44:in `with_server_connectivity'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.5.0/gems/chef-14.12.9-universal-mingw32/lib/chef/application.rb:261:in `run_chef_client'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.5.0/gems/chef-14.12.9-universal-mingw32/lib/chef/application/client.rb:449:in `run_application'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.5.0/gems/chef-14.12.9-universal-mingw32/lib/chef/application.rb:66:in `run'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.5.0/gems/chef-14.12.9-universal-mingw32/bin/chef-client:25:in `<top (required)>'
+C:/opscode/chefdk/bin/chef-client:322:in `load'
+C:/opscode/chefdk/bin/chef-client:322:in `<main>'

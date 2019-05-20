@@ -5,7 +5,7 @@
 # Copyright (c) 2016 The Authors, All Rights Reserved.
 
 file 'motd' do
-      content 'hello world' 
+      content 'hello world 1' 
 end
 
 apt_update 'Update the apt cache daily' do
